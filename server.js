@@ -16,7 +16,7 @@ app.get("/speedtest", async (req, res) => {
     );
     res.json(response.data);
   } catch (err) {
-    res.status(500).json({ error: "API hatası", details: err.message });
+    res.status(500).json({ error: "PageSpeed API hatası", details: err.message });
   }
 });
 
