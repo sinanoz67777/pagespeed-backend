@@ -1,16 +1,16 @@
 {
   "name": "pagespeed-backend",
   "version": "1.0.0",
-  "description": "Google PageSpeed API ile Express backend",
+  "description": "Google PageSpeed API backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "axios": "^1.5.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "dotenv": "^16.3.1"
   },
   "engines": {
     "node": ">=14.0.0"
